@@ -28,3 +28,9 @@ on StackOverflow and print the result to the console.
 **4. Make sure you are running your project with `DEBUG=True`.**
 
 **5. Start your development server and wait for the view exceptions (or not).**
+
+## Preview
+
+This is how it looks like in your Terminal:
+
+![StackOverflow Exception Troubleshooting](https://github.com/vitorfs/soet/raw/master/soet.png)
