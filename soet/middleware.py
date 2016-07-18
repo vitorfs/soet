@@ -24,7 +24,7 @@ def print_string(string):
         print u'| {}'.format(line) + ((76 - len(line)) * ' ') + ' |'
 
 
-class StackOverflowTroubleshooting(object):
+class StackOverflowMiddleware(object):
 
     def __init__(self):
         self.headers = {
