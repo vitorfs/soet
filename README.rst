@@ -9,18 +9,22 @@ on StackOverflow and print the result to the console.
 Quick Start
 -----------
 
-*1. Install using pip:*
+**1. Install using pip:**
+
+.. code-block:: console
 
     pip install django-soet
 
-*2. Include "soet" to your INSTALLED_APPS:*
+**2. Include "soet" to your INSTALLED_APPS:**
+
+.. code-block:: python
 
     INSTALLED_APPS = [
         ...
         'soet',
     ]
 
-*3. Include "StackOverflowMiddleware" to your MIDDLEWARE_CLASSES:*
+**3. Include "StackOverflowMiddleware" to your MIDDLEWARE_CLASSES:**
 
 .. code-block:: python
 
@@ -29,13 +33,13 @@ Quick Start
         'soet.middleware.StackOverflowMiddleware',
     )
 
-*4. Make sure you are running your project with ``DEBUG=True``.*
+**4. Make sure you are running your project with ``DEBUG=True``.**
 
-*5. Start your development server and wait for the view exceptions (or not).*
+**5. Start your development server and wait for the view exceptions (or not).**
 
 Preview
 -------
 
 This is how it looks like in your Terminal:
 
-![StackOverflow Exception Troubleshooting](https://github.com/vitorfs/soet/raw/master/soet.png)
+.. image:: https://github.com/vitorfs/soet/raw/master/soet.png
