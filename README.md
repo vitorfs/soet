@@ -7,24 +7,24 @@ on StackOverflow and print the result to the console.
 
 ## Quick Start
 
-1. Install using pip:
+### 1 Install using pip:
 
     pip install django-soet
 
-2. Include "soet" to your INSTALLED_APPS:
+### 2 Include "soet" to your INSTALLED_APPS:
 
     INSTALLED_APPS = [
         ...
         'soet',
     ]
 
-3. Include "StackOverflowMiddleware" to your MIDDLEWARE_CLASSES:
+### 3 Include "StackOverflowMiddleware" to your MIDDLEWARE_CLASSES:
 
     MIDDLEWARE_CLASSES = (
         ...
         'soet.middleware.StackOverflowMiddleware',
     )
 
-4. Make sure you are running your project with `DEBUG=True`.
+### 4 Make sure you are running your project with `DEBUG=True`.
 
-5. Start your development server and wait for the view exceptions (or not).
+### 5 Start your development server and wait for the view exceptions (or not).
