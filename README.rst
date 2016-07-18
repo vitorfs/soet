@@ -33,7 +33,7 @@ Quick Start
         'soet.middleware.StackOverflowMiddleware',
     )
 
-**4. Make sure you are running your project with ``DEBUG=True``.**
+**4. Make sure you are running your project with DEBUG=True.**
 
 **5. Start your development server and wait for the view exceptions (or not).**
 
